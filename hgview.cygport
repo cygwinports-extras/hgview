@@ -1,0 +1,18 @@
+inherit distutils
+
+NAME="hgview"
+VERSION=1.6.2
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="Mercurial log navigator"
+DESCRIPTION="hgview is a fast Mercurial log navigator written in pyqt4.  It
+can be used either as a hg extension, or as a standalone application."
+HOMEPAGE="http://www.logilab.org/project/name/hgview"
+SRC_URI="http://ftp.logilab.org/pub/${PN}/${P}.tar.gz"
+
+DIFF_EXCLUDES="*_ui.py"
+
+REQUIRES="python-pyqt4-qsci"
+
+# for pyrcc4
+PATH+=":${PYTHON_SITELIB}/PyQt4"

@@ -1,7 +1,0 @@
-inherit distutils
-
-DESCRIPTION="Mercurial log navigator"
-HOMEPAGE="http://www.logilab.org/project/name/hgview"
-SRC_URI="http://ftp.logilab.org/pub/${PN}/${P}.tar.gz"
-
-DIFF_EXCLUDES="*_ui.py"

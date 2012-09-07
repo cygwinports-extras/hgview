@@ -1,5 +1,0 @@
-category: Devel
-requires: mercurial python python-docutils python-mx python-pyqt4 python-pyqt4-qsci
-sdesc: "Mercurial log viewer"
-ldesc: "hgview is a fast Mercurial log navigator written in pyqt4.  It 
-can be used either as a hg extension, or as a standalone application."
